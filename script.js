@@ -27,3 +27,10 @@ var k = event.keyCode,
  chrId.style.left = (chr.left()leftright) + "px";
 }
 document.addEventListener('keydown',move);
+
+var c = document.getElementsById('Canvas');
+var ctx = c.getContext('2d');
+ctx.lineWidth="6";
+ctx.strokeStyle="red";
+ctx.rect(20,20,150,100);
+ctx.stroke();
